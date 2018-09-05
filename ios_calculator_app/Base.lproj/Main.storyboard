@@ -146,6 +146,28 @@
                         <color key="backgroundColor" red="0.42315585675009482" green="0.74118227461459107" blue="0.72742123076995191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="button_0" destination="FF9-hm-PM8" id="Qbn-ek-Dzy"/>
+                        <outlet property="button_1" destination="lFv-11-4u0" id="awY-re-fJv"/>
+                        <outlet property="button_2" destination="KnU-Ok-ncs" id="Sig-NN-kZS"/>
+                        <outlet property="button_3" destination="sDu-Kw-wKY" id="p2P-lL-16l"/>
+                        <outlet property="button_4" destination="UDi-zb-P0l" id="8IR-xO-Igh"/>
+                        <outlet property="button_5" destination="2ix-iu-57H" id="cCl-ae-glr"/>
+                        <outlet property="button_6" destination="x91-4E-1jQ" id="t7j-Fs-0CC"/>
+                        <outlet property="button_7" destination="0o1-K9-fpm" id="iVu-bn-X74"/>
+                        <outlet property="button_8" destination="nVz-tY-4r4" id="3Xd-3t-4Z8"/>
+                        <outlet property="button_9" destination="xTN-1Q-0Oc" id="QHv-hi-yDO"/>
+                        <outlet property="button_decimalNotation" destination="5N6-1A-OAk" id="pUA-IR-PGI"/>
+                        <outlet property="button_division" destination="rtb-Tk-x9J" id="iAm-g0-ltq"/>
+                        <outlet property="button_equals" destination="V7r-9m-dbY" id="XH1-GB-bSY"/>
+                        <outlet property="button_minus" destination="jQy-df-Nyp" id="etp-9L-x7j"/>
+                        <outlet property="button_multiplication" destination="6ko-01-ZXT" id="Zvi-xN-agg"/>
+                        <outlet property="button_pi" destination="8ES-xi-NIM" id="ntz-iX-uTG"/>
+                        <outlet property="button_plus" destination="fa7-JX-l0w" id="JhY-Jc-Vt5"/>
+                        <outlet property="clearButton" destination="5GC-cb-rbu" id="36Y-nJ-a9n"/>
+                        <outlet property="displayLabel" destination="i7N-hK-ijB" id="RfQ-I8-Lrd"/>
+                        <outlet property="powerButton" destination="gsE-IT-AT2" id="Dn8-r3-MRZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
