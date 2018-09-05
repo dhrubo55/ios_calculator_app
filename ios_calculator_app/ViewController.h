@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    NSString *storage;
+    NSString *operation;
+}
 @property (weak, nonatomic) IBOutlet UILabel *displayLabel;
 @property (weak, nonatomic) IBOutlet UIButton *clearButton;
 @property (weak, nonatomic) IBOutlet UIButton *powerButton;
@@ -29,6 +32,8 @@
 @property (weak, nonatomic) IBOutlet UIButton *button_pi;
 @property (weak, nonatomic) IBOutlet UIButton *button_division;
 @property (weak, nonatomic) IBOutlet UIButton *button_decimalNotation;
+
+
 
 
 @end
